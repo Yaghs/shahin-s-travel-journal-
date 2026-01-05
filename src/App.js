@@ -1,11 +1,11 @@
 import Header from "./components/Header.js"
-
+import Entry from "./components/Entry.js"
 function App() {
   return (
-    <div >
+    <>
       <Header/>
-      <h1>App component</h1>
-    </div>
+      <Entry />
+    </>
   );
 }
 
